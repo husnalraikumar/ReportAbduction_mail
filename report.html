@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Alien Abducted Me - Report an Abduction</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {background-color: greenyellow;
+            font-family: courier}
+            h1 {color: red;
+            font-family: verdana;
+            font-size: 150%;}
+        </style>
+    </head>
+    <body>
+        <h1>Alien Abducted me - Report an Abduction</h1>
+        <br><br>
+        <p>Share your story of alien abduction:</p>
+        <br><br>
+        <form method = "post" action = "mailto:superhero@justice.ca">
+            <label for = "firstname">First Name:</label>
+            <input type = "text" id = "firstname" name = "firstname" placeholder = "Ex Caption" required>
+            <br><br>
+            <label for = "lastname">Last Name:</label>
+            <input type = "text" id = "lastname" name ="lastname" required placeholder = "Ex Lighting" />
+            <br><br>
+            <label for = "email">What is your Email address:</label>
+            <input type ="text" size = "35" id="email" name ="email" required placeholder = "Ex captionlighting@superhero.com">
+            <br><br>
+            <label for = "whenithappened">When it happen?</label>
+            <input type ="text" id ="whenithappened" name="whenithappened" required>
+            <br><br>
+            <label for ="howlong">How long where you gone?</label>
+            <input type ="text" id ="howlong" name ="howlong">
+            <br><br>
+            <label for ="howmany">How many did you see?</label>
+            <input type="text" id ="howmany" name="howmany">
+            <br><br>
+            <label for ="aliendescription">Describe them:</label>
+            <input type ="text" id="aliendescription" name ="aliendescription" size="45">
+            <br><br>
+            <label for ="whattheydid">What did they do to you?</label>
+            <input type="text" id="whattheydid" name ="whattheydid" size ="45">
+            <br><br>
+            <label for ="candyspotted">Have you seen Candy?</label>
+            Yes <input id = "candyspotted" name = "candyspotted" type ="radio" value = "yes">
+            No <input id = "candyspotted" name = "candyspotted" type ="radio" value = "no">
+            <br><br>
+            <img src = "candydoo.jpg" width ="200" height ="175"
+                 alt ="My abducted dog Candy."><br>
+            <label for = "other">Anything else you want to add?</label>
+            <textarea id ="other" name ="other"></textarea>
+            <br><br>
+            <input type="submit" value ="Report Abduction" name="submit">
+        </form>
+    </body>
+</html>
